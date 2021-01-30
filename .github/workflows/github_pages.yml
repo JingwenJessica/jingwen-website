@@ -1,0 +1,32 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - uses: actions/setup-go@v2
+        with:
+          go-version: '1.13.1' # The Go version to download (if necessary) and use.
+      - run: go version
+
+      - name: Hugo Deploy GitHub Pages
+        uses: benmatselby/hugo-deploy-gh-pages@master
+        env:
+          HUGO_VERSION: 0.80.0
+          TARGET_REPO: JingwenJessica/jingwen.github.io
+          TARGET_BRANCH: master
+          TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          HUGO_ARGS: '-t academic'
+          CNAME: jingwen.github.io
