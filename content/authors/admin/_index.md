@@ -73,4 +73,4 @@ highlight_name: false
 
 My name is Jingwen (Jessica) Wang and I'm an assistant professor from Computer Science Department at Elizabethtown College. I did my PhD at University of Massachusetts Lowell. As a computer scientist, I enjoy writing programs, learning new technologies, developing apps. My research interests are Natural Language Processing, Text Mining, and Computational Linguistics.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/jingwen_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/CV_JingwenWang.pdf" "newtab" >}}resumé{{< /staticref >}}.
