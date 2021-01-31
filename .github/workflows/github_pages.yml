@@ -25,8 +25,8 @@ jobs:
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
           HUGO_VERSION: 0.80.0
-          TARGET_REPO: JingwenJessica/jingwen.github.io
+          TARGET_REPO: JingwenJessica/jingwenjessica.github.io
           TARGET_BRANCH: master
           TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           HUGO_ARGS: '-t academic'
-          CNAME: jingwen.github.io
+          CNAME: jingwenjessica.github.io
