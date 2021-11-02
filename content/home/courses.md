@@ -36,6 +36,11 @@ feature:
   icon: html5
   icon_pack: fab
 
+- name: CS 322
+  description: Algorithms
+  icon: project-diagram
+  icon_pack: fas
+
 - name: CS 341
   description: Software Engineering
   icon: laptop-code
