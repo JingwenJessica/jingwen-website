@@ -13,9 +13,9 @@ cd public
 
 # Add changes to git. 
 # . will stage new files and modifications, without deletions, which would explain why your public/ folder was not being removed.
-#git add .
+git add .
 # –A will stage all changes
-git add -A
+#git add -A
 
 # Commit changes.
 msg="rebuilding site $(date)"
