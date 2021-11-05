@@ -10,8 +10,13 @@
 
 [[main]]
   name = "Teaching"
-  url = "#courses"
+  url = "#teaching"
   weight = 20
+
+[[main]]
+  name = "Courses"
+  url = "courses/"
+  weight = 30
 
 # [[main]]
 #   name = "Posts"

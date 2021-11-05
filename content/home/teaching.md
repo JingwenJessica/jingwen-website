@@ -40,6 +40,7 @@ feature:
   description: Algorithms
   icon: project-diagram
   icon_pack: fas
+  url: "courses/cs322"
 
 - name: CS 341
   description: Software Engineering
